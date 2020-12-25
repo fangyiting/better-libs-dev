@@ -19,9 +19,7 @@ export default {
         const initChart = () => {
             if(!chart) {
                 dom = document.getElementsByClassName(className)[0];
-                console.log(222, dom, chart);
-                chart = Echarts.init(dom, ctx.theme)
-                console.log(222, chart, dom);
+                chart = Echarts.init(dom, ctx.theme);
             }
             if(ctx.options) {
                 chart.setOption(ctx.options)

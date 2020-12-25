@@ -173,7 +173,7 @@ export default {
     setup() {
         onMounted(() => {
             const logo = document.getElementsByClassName('logo')[0]
-            console.log(logo.getTotalLength())
+            // console.log(logo.getTotalLength())
         })
     }
 }

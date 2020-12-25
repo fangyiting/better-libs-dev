@@ -63,7 +63,7 @@ export default {
             // 获取大屏最终宽高
             const realWidth = width.value || originalWidth.value;
             const realHeight = height.value || originalHeight.value;
-            console.log(currentHeight, currentWidth);
+            // console.log(currentHeight, currentWidth);
             const widthScale = currentWidth / realWidth;
             const heightScale = currentHeight / realHeight;
             dom && ( dom.style.transform = `scale(${widthScale}, ${heightScale})`)
@@ -102,7 +102,7 @@ export default {
             window.removeEventListener('resize', onResize);
             removeMutationObserver()
         });
-        console.log(require('vue'));
+        // console.log(require('vue'));
         return {
             refName,
             ready

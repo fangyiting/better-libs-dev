@@ -18,7 +18,7 @@ export default {
         }
     },
     setup(ctx) {
-        const iconName = `#${ctx.name}`;
+        const iconName = `#${ctx.prefix}${ctx.name}`;
         return {
             iconName
         }
