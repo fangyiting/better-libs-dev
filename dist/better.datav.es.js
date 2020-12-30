@@ -738,7 +738,7 @@ const render$3 = /*#__PURE__*/_withId$2(function render(_ctx, _cache, $props, $s
   ], 512 /* NEED_PATCH */))
 });
 
-var css_248z$3 = ".better-fly-box[data-v-5a6a574f] {\n  position: relative;\n  width: 100%;\n  height: 100%;\n}\n.better-fly-box[data-v-5a6a574f] svg {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}\n.better-fly-box[data-v-5a6a574f] .better-fly-box-content {\n  width: 100%;\n  height: 100%;\n  padding: 5px;\n  box-sizing: border-box;\n}";
+var css_248z$3 = ".better-fly-box[data-v-5a6a574f] {\n  position: relative;\n  width: 100%;\n  height: 100%;\n}\n.better-fly-box[data-v-5a6a574f] svg {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}\n.better-fly-box[data-v-5a6a574f] .better-fly-box-content {\n  width: 100%;\n  height: 100%;\n  padding: 2px;\n  box-sizing: border-box;\n}";
 styleInject(css_248z$3);
 
 script$3.render = render$3;
